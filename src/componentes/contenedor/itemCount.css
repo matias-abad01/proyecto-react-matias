@@ -1,0 +1,92 @@
+
+.itemCount{
+    background-color: rgba(255, 255, 255, 0.596);
+    width: 250px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+    gap: 10px;
+    
+}
+
+
+
+
+
+/*------------contador -------------*/
+.Contador{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+} 
+
+/*boton sumar y restar*/
+.botonContador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+
+    
+}
+
+    
+    
+
+
+.botonContador button{
+    
+    padding: 0;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    
+}
+.botonContador button:hover{
+    transform: scale(0.9,0.9);
+}
+
+.botonContador p{
+    width: 50px;
+    text-align: center;
+    
+    
+}
+/*agregar al carrito*/
+.botonAgregar{
+    background-color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    height: auto;
+
+    
+    
+    
+    border: 2px solid black;
+    
+    
+}
+.botonAgregar:hover{
+    
+   
+}
